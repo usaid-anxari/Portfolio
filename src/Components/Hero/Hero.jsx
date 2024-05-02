@@ -1,9 +1,8 @@
 import React from "react";
-import profile_logo1 from '../../assets/profile_logo1.png'
-// import profile_logo2 from '../../assets/profile_logo2.png'
-
 import "./Hero.css";
+import profile_logo1 from '../../assets/profile_logo1.png'
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import resume from '../../assets/resume.pdf'
 
 const Hero = () => {
   return (
@@ -13,7 +12,7 @@ const Hero = () => {
       <p>I Develop Softwears And Websites</p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className="anchor-link" offset={50} href="#contact">Connect with me</AnchorLink></div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume"><a href={resume} download='Resume'>My resume</a></div>
       </div>
     </div>
   );

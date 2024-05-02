@@ -1,8 +1,11 @@
 import React from "react";
 import "./Footer.css";
 import logo from "../../assets/logo.png";
-import user_icon from "../../assets/user_icon.svg";
-
+import { VscGithub } from "react-icons/vsc";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { SiMinutemailer } from "react-icons/si";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Footer = () => {
   return (
@@ -10,19 +13,18 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-top-left">
           <img src={logo} alt="" />
-          <p>I'm a frontned Developer from, Pakistan.</p>
+          <p>I'm a Frontned Developer from, Pakistan.</p>
         </div>
         <div className="footer-top-right">
-            <div className="footer-email-input">
-                <img src={user_icon} alt="" />
-                <input type="email" placeholder="Enter Your Email" />
-                </div>
-                <div className="footer-subscribe">
-                    Subscribe
-                </div>
+          <ul className="nav-menu">
+            <li><AnchorLink className="anchor-link"  href="https://github.com/usaid-anxari"><p><VscGithub  className="icon" /></p></AnchorLink></li>
+            <li><AnchorLink className="anchor-link"  href="https://www.linkedin.com/in/usaid-ahmed-ansari-861547246/"><p><FaLinkedin  className="icon" /></p></AnchorLink></li>
+            <li><AnchorLink className="anchor-link"  href="https://www.instagram.com/usaid.anxari/saved/all-posts/"><p><FaSquareInstagram  className="icon" /></p></AnchorLink></li>
+            <li><AnchorLink className="anchor-link"  href="https://mail.google.com/mail/u/0/#inbox?compose=new"><p><SiMinutemailer  className="icon" /></p></AnchorLink></li>
+          </ul>
         </div>
       </div>
-      <hr />
+      <hr style={{width:"100%"}}/>
       <div className="footer-bottom">
         <p className="footer-bottom-left">© 2024 Usaid Ansari. All rights reserved.</p>
         <div className="footer-bottom-right">

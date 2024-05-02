@@ -107,46 +107,100 @@
   transition: 0.5s;
 }
 
-@media (max-width:900px) {
-  .about{
+@media (max-width: 900px) {
+  .about {
     gap: 80px;
     margin: 50px 70px;
     align-items: start;
   }
 
-  .about-title{
-    h1{
+  .about-title {
+    h1 {
       font-size: 50px;
       padding: 0;
     }
 
-    img{
+    img {
       width: 130px;
       right: -20px;
     }
   }
 
-  .about-sections{
+  .about-sections {
     flex-direction: column;
   }
-  .about-left{
+  .about-left {
     display: none;
   }
-  .about-pera{
+  .about-pera {
     font-size: 18px;
     line-height: 32px;
   }
 
-  .about-skill{
+  .about-skill {
     gap: 20px;
     align-items: center;
 
-    p{
+    p {
       font-size: 20px;
     }
 
-    hr{
+    hr {
       height: 6px;
     }
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-title {
+    h1 {
+      padding: 0px 30px;
+      font-size: 70px;
+      font-weight: 600;
+    }
+  }
+  .about-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-left {
+    display: none;
+  }
+}
+
+@media (max-width: 412px) {
+  .about {
+    gap: 40px;
+    margin: 50px 70px;
+    align-items: start;
+  }
+  .about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .about-skills {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  .about-title {
+    h1 {
+      padding: 0px 30px;
+      font-size: 40px;
+      font-weight: 400;
+    }
+  }
+  .mywork-title {
+    h1 {
+      margin: 0px 30px;
+      font-size: 25px;
+      font-weight: 400;
+    }
+  }
+  .about-pera {
+    font-size: 15px;
+    line-height: 25px;
   }
 }
