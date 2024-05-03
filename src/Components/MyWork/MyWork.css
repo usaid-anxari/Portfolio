@@ -141,3 +141,15 @@
     }
   }
 }
+@media (max-width: 360px) {
+  .mywork-title {
+    h1 {
+      margin: 0px 30px;
+      font-size: 23px;
+      font-weight: 300;
+    }
+  }
+  .mywork-btn {
+    padding: 10px 20px;
+}
+}

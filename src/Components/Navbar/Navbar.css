@@ -93,3 +93,9 @@
         margin: 20px 40px;
     }
 }
+
+@media (max-width:360px){
+    .nav-logo{
+        width: 40%;
+    }
+}

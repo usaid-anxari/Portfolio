@@ -179,7 +179,36 @@
     }
   }
 }
-.hero-resume a{
-   text-decoration: none;
-   color: white;
+.hero-resume a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 360px) {
+  .hero {
+    h1 {
+      text-align: center;
+      margin-top: -30px;
+      width: 85%;
+      font-size: 21px;
+      font-weight: 500;
+    }
+    img {
+      margin-top: 40px;
+      width: 210px;
+    }
+    p {
+      width: 66%;
+      font-size: 15px;
+      line-height: 0;
+      margin: -5px 0px;
+  }
+  }
+  .hero-action {
+    gap: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    width: 90%;
+}
 }
