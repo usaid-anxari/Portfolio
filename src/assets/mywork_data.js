@@ -187,6 +187,13 @@ const mywork_data = [
         w_img:project_23,
         w_link:'https://stop-watch-kappa-ashen.vercel.app/'
     },
+    {
+        w_no:24,
+        w_name:"Resturent App",
+        w_des:'Using React js',
+        w_img:project_23,
+        w_link:'https://food-app-five-gules.vercel.app/'
+    },
 ]
  
 export default mywork_data;

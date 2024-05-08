@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-top-left">
           <img src={logo} alt="" />
-          <p>I'm a Frontned Developer from, Pakistan.</p>
+          <p>I'm a Fullstack Developer from, Pakistan.</p>
         </div>
         <div className="footer-top-right">
           <ul className="nav-menu">

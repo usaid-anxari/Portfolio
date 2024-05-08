@@ -26,12 +26,11 @@ const App = () => {
         className="fixed-bottom right-100 p-3"
         style={{ zIndex: "6", left: "initail" }}>
         <a
-          href="https://wa.me/+923142759457?text=hello how can i help you ?"
+          href="https://wa.me/+923142759457"
           target="_blank">
         <img src={wa_logo1} alt="" />
         </a>
       </div>
-      {/* https://wa.me/+923142759457?text=hello how can i help you ? */}
     </div>
   );
 };
