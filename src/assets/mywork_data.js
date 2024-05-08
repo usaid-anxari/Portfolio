@@ -191,7 +191,7 @@ const mywork_data = [
     {
         w_no:24,
         w_name:"Resturent App",
-        w_des:'Using React js',
+        w_des:'Using React js & CSS',
         w_img:project_24,
         w_link:'https://food-app-five-gules.vercel.app/'
     },
