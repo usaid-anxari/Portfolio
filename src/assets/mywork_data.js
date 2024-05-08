@@ -21,6 +21,7 @@ import project_20 from '../assets/project_20.png'
 import project_21 from '../assets/project_21.png'
 import project_22 from '../assets/project_22.png'
 import project_23 from '../assets/project_23.png'
+import project_24 from '../assets/project_24.png'
 
 const mywork_data = [
     {
@@ -191,7 +192,7 @@ const mywork_data = [
         w_no:24,
         w_name:"Resturent App",
         w_des:'Using React js',
-        w_img:project_23,
+        w_img:project_24,
         w_link:'https://food-app-five-gules.vercel.app/'
     },
 ]
